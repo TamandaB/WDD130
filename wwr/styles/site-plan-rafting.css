@@ -1,29 +1,31 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #0cee4c ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #053664   ;
+  --secondary-color: #30451c ;
+  --accent1-color: #a3a1a1;
+  --accent2-color: #ffffff;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Rock Salt";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --primary-color: #053664   ;
+  --headline-color-on-white: #30451c ;  /* headlines on a white background */ 
+  --headline-color-on-color: #fcfcff; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #053664 ; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
+  --paragraph-background-color:#30451c    ;
+  --nav-link-color: #ffffff ;
+  --nav-background-color: #30451c;
+  --accent2-color: #ffffff;
+  --nav-hover-link-color: #ffffff;
+  --nav-hover-background-color:#053664 ;
 }
 
 
