@@ -1,14 +1,37 @@
+
 body {
     background-color: rgb(123, 186, 207);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+nav footer{
+    background-color: lightblue;
+    padding: 20px;
+    color:white
+    text-align; center
+}
 a {
     padding: 15px;
     color: black;
     font-size: 20px;
+    text-decoration: none;
+    background-color:  steelblue;
+    margin: 15px;
 }
-
+nav a:hover{
+    background-color: lightblue;
+    color: blue;
+}
+h1{
+    text-align: center;
+}
 img {
     width: 400px;
+    display; block;
+    margin: 0 auto
+}
+#main-topic {
+    color: steelblue;
+}
+footer a{
+    color: steelblue;
 }
