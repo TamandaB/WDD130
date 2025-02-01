@@ -21,10 +21,10 @@ main section{
     height: 725px;
 }
 body{
-    background-color: #f5f4f4;
+    background-color: #c8d3eb;
 }
 header{
-    background-color: rgba(red, green, rgb(129, 129, 131), alpha) ;
+    background-color: #68B9E8;
 }
 nav a{
     text-align: center;
@@ -32,8 +32,8 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    background-color: rgb(98, 79, 79);
-    color: #d9c2a3
+    background-color: #9268E8;
+    color:#e1e1ef
 }
 .home-title{
     color: #070707;
@@ -45,13 +45,13 @@ h4{
     color: rgb(8, 8, 8);
     text-align: center;
 }
-#hero-image{
-    width: 80px;
+#hero-img{
+    width: 1000px;
     display: block;
     margin: 0 auto
 }
 .book{
-    background-color:rgb(169, 169, 170) ;
+    background-color: #9268E8;
     text-decoration: none;
 }
 .logo{
@@ -59,33 +59,33 @@ h4{
     margin: 0 auto
 }
 .join{
-    background-color: burlywood;
+    background-color: #6869E8;
     text-decoration: none;
 }
 .book:hover{
-    background-color: rgb(52, 52, 27);
+    background-color:#68B9E8 ;
 }
 .join:hover{
-    background-color: green;
+    background-color:#68E1E8;
 }
 #background{
-    background-color:pink ;
+    background-color:#6869E8 ;
 }
 .msg h2{
     color: rgb(0, 0, 0);
 }
 .msg{
-    background-color:gray
+    background-color:#68E1E8
 }
 footer{
-    background-color:grey ;
+    background-color:#87e9ee ;
 }
 footer a{
     color: rgb(10, 10, 10);
     text-decoration: none;
 }
 footer a:hover{
-    color: rgb(129, 126, 127);
+    color:#73e1e7(129, 126, 127);
 }
 footer p{
     font-size: 1.2em;
