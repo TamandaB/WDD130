@@ -10,6 +10,9 @@ body {
     background-color: white;
     margin: 0 auto;
 }
+nav{
+    display: flex;
+}
 nav footer{
     background-color: steelblue;
     padding: 20px;
@@ -33,9 +36,17 @@ h1{
 img {
     width: 40%;
     display: block;
-    margin: 10px auto
-    
-    
+    margin: 10px auto;
+    border: 4px solid steelblue;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: .5 ;
+    box-shadow: 5px 5px 20px black;
+
+}
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 p{
     line-height: 2em;
