@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #BB0030; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #889183  ;
+  --paragraph-background-color: #ffffff  ;
   --nav-link-color: #7c8993;
   --nav-background-color: #000000;
   --nav-hover-link-color: white;
@@ -29,6 +29,60 @@ Fonts are separated by a | */
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
+.home-grid img{
+  width: 100%;
+  grid-column: 2/5;
+  grid-row: 2/3;
+}
+.home-grid h1{
+  grid-column: 2/5;
+  grid-row: 1/2;
+  font-family: "Permanent Marker", "Bradley Hand", sans-serif;
+
+}
+.culture-img{
+  width: 100%;
+}
+.logo{
+    
+  margin: 0 auto
+}
+#logo_link{
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+.logo{
+  width: 100px;
+}
+.home-grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+#first-box{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+#second-box{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+#third-box{
+  grid-column: 5/6;
+  grid-row: 3/4;
+}
+#culture-msg{
+  grid-column: 1/6;
+  grid-row: 4/5;
+  font-family: "Neuton", "Helvetica", sans-serif;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,7 +90,7 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
+.img {
   display: block;
   margin: 0 auto;
 }
@@ -66,6 +120,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  text-align: center;
 }
 .colors {
   width: 100%;
@@ -98,6 +153,13 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+nav{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
 
 nav {
   background-color: var(--nav-background-color);
@@ -108,13 +170,16 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
 
 }
 nav a {
+  text-align: center;
+  color: #000000;
   padding:1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
+  padding: 35px;
 
 }
 nav a:link, nav a:visited {
@@ -123,8 +188,17 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+
 }
 
+footer{
+background-color:#6FC45A ;
+  padding:50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .sitemap {
   display: grid;
   justify-content: center;
@@ -143,12 +217,12 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: #ffffff;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: #f9f7f7;
   line-height: 3em;
 }
 .sm-page3 {
