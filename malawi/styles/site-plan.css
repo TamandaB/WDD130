@@ -42,6 +42,7 @@ Fonts are separated by a | */
 }
 .culture-img{
   width: 100%;
+  border-radius: 100px;
 }
 .logo{
     
@@ -65,6 +66,19 @@ Fonts are separated by a | */
   width: 100%;
   align-items: center;
   justify-items: center;
+}
+.nsima-img, .lake-img, .nyawu-img{
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 50%;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+.button{
+  background-color: #f70505;
+} 
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(63, 193, 40, 0.5);
 }
 #first-box{
   grid-column: 1/2;
@@ -100,6 +114,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+}
+p{
+  background-image: url("lakeview.jpeg")
 }
 hr {
   height: 3px;
