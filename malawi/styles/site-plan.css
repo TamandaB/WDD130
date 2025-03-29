@@ -78,7 +78,7 @@ Fonts are separated by a | */
 } 
 /* Add a hover effect (blue shadow) */
 img:hover {
-  box-shadow: 0 0 2px 1px rgba(63, 193, 40, 0.5);
+  box-shadow: 0 0 2px 1px rgba(61, 224, 32, 0.5);
 }
 #first-box{
   grid-column: 1/2;
