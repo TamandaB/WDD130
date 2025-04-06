@@ -313,3 +313,103 @@ background-color:#6FC45A ;
   max-width: 100%; /* Prevents image overflow */
   height: auto; /* Maintains aspect ratio */
 }
+/*last page*/
+#last-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  margin: auto;
+  max-width: 1200px;
+}
+.lake-title {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+/* Image Styling */
+.lake-img {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.lake2{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+#lake-msg {
+  grid-column: 2 / 5;
+  grid-row: 3 / 4;
+  font-family: "Neuton", "Helvetica", sans-serif;
+  padding: 20px;
+  margin: 10px;
+  text-align: justify;
+  line-height: 1.8;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for last three images */
+.lake3, .lake4, .lake5 {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lake3-img, .lake4-img, .lake5-img {
+  width: 100%;
+  max-width: 250px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Image Grid Placement for last three images (side-by-side) */
+.lake3 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lake4 {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lake5 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  #last-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .lake2-img { width: 80%; grid-column: 1 / 4; }
+  .lake3-img, .lake4-img, .lake5-img { width: 80%; }
+}
+
+@media (max-width: 768px) {
+  #last-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .lake2-img, .lake3-img, .lake4-img, .lake5-img {
+    width: 90%;
+    grid-column: 1 / -1;
+  }
+}
